@@ -1,6 +1,6 @@
 class PostsController < ApplicationController # '<' is used to create postcontroller which extends app controller
 	def index
-
+		@posts = Post.all
 	end 
 
 
